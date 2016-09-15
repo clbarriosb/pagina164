@@ -14,6 +14,18 @@ public class Student {
     String name;
     double gpa;
     Professor advisor;
+    int numero;
+    
+        
+    Student(String name, int numero){
+        this.name= name;
+        this.numero = numero;
+    }
+    
+    void printStudent (){        
+        System.out.println(this.numero);
+        System.out.println(this.name);
+    }
     
     public Student(String name){
         this.name = name;
